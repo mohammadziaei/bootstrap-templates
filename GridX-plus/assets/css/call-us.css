@@ -1,0 +1,54 @@
+.call-info .call-item{
+    width: 300px;
+}
+
+
+.call-us .call-info .icon,.social-info .icon{
+    width: 70px;
+    height: 70px;
+    font-size: 1.6rem;
+    background: linear-gradient(297deg, rgb(255 255 255 / 1%), rgb(255 255 255 / 9%));
+    color: var(--white);
+    box-shadow: 0px -1px 2px 0 #ffffff4d;
+}
+.social-info .icon{
+    width: 80px;
+    height: 80px;
+    font-size: 1.8rem;
+}
+
+#section-work-together h5 span{
+    color: var(--primary-color);
+}
+
+@media screen and (max-width:1200px) {
+
+}
+
+@media screen and (max-width:992px) {
+    .call-us .call-info .icon,.social-info .icon{
+        width: 60px;
+        height: 60px;
+        font-size: 1.4rem;
+    }
+    .social-info .icon{
+        width: 70px;
+        height: 70px;
+        font-size: 1.6rem;
+    }
+    .call-info h3{
+        font-weight: 500 !important;
+        font-size: 0.9rem !important;
+}
+
+@media screen and (max-width:768px) {
+
+
+}
+
+@media screen and (max-width:576px) {
+
+    .mt-6{
+        margin-top:5rem;
+    }
+}

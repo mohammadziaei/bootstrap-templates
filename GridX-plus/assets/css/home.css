@@ -1,0 +1,124 @@
+/* top-section 1*/
+#section-about .box-img{
+    width:224px;
+    background: #babac6;
+
+    /* background: linear-gradient(90deg, #3C58E3 -15%, #C2EBFF 58%, #5AB5E2 97%); */
+    border-radius: 30px 0 30px 0;
+    -webkit-border-radius: 30px 0 30px 0;
+    -moz-border-radius: 30px 0 30px 0;
+    -ms-border-radius: 30px 0 30px 0;
+    -o-border-radius: 30px 0 30px 0;
+    overflow: hidden;
+    
+}
+.titr-marquee{
+    height: 15%;
+}
+.marquee{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow-x:hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+.marquee div{
+    width:100%;
+    animation: marquee 12s linear infinite;
+    -webkit-animation: marquee 12s linear infinite;
+}
+@keyframes marquee {
+    0%{
+        transform: translateX(88%);
+        -webkit-transform: translateX(88%);
+        -moz-transform: translateX(88%);
+        -ms-transform: translateX(88%);
+        -o-transform: translateX(88%);
+    }
+    100%{
+        transform: translateX(-88%);
+        -webkit-transform: translateX(-88%);
+        -moz-transform: translateX(-88%);
+        -ms-transform: translateX(-88%);
+        -o-transform: translateX(-88%);
+    }
+}
+
+/* sectin 2 */
+#section-soical-media .social .icon-box a{
+    border: 1px solid #ffffff0f;
+    padding: 25px;
+    line-height: 1;
+    z-index: 10;
+    transition:0.4s ease ;
+    -webkit-transition:0.4s ease ;
+    -moz-transition:0.4s ease ;
+    -ms-transition:0.4s ease ;
+    -o-transition:0.4s ease ;
+}
+#section-soical-media .social .icon-box a:hover{
+    background-color: var(--white);
+    color: var(--body) !important;
+}
+
+
+/* section 3*/
+.statistics div{
+    background-image: linear-gradient(120deg, rgb(255 255 255 / 0%), rgba(255, 255, 255, 0.05));
+    border: 1px solid rgb(30 30 30 / 54%);
+    padding: 42px 30px 42px 30px;
+    flex: 1;
+    color: var(--white);
+    
+}
+
+.statistics div p{
+    color:var(--link)
+}
+
+#section-work-together .top-img{
+    filter: brightness(0.6);
+    height: 88px;
+    right: 40px;
+}
+.work-together h5 span{
+   color:var(--primary-color) 
+}
+
+
+@media screen and (max-width:1200px) {
+
+    .statistics div{
+        padding: 32px 20px 32px 20px;
+    }
+}
+
+@media screen and (max-width:992px) {
+
+    .row-h-section{
+        height: fit-content;
+    }
+    .statistics div{
+        padding: 42px 30px 42px 30px;
+    }
+    #section-work-together .top-img{
+        height: 70px;
+        right: 126px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    
+}
+
+@media screen and (max-width:576px) {
+
+    .titr-marquee{
+        height: 50px;
+    }
+
+}
+

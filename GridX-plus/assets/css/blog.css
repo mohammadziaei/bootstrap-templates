@@ -1,0 +1,128 @@
+.c-nav-link{
+    color: var(--white);
+    opacity: 0.8;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+}
+
+.c-nav-link:hover{
+    opacity: 1 !important;
+}
+
+/* main blog */
+
+
+.blog-item{
+    margin-top:70px;
+    padding-bottom: 26px;
+    border-bottom: 1px dashed #626262;
+}
+.blog-item:first-child{
+    margin-top: 0;
+}
+.blog-item:last-child{
+    padding-bottom: 0;
+    border-bottom: none;
+}
+.blog-item .details,.article-details .details{
+    color:var(--primary-color);
+}
+
+.blog-item .description{
+    color:var(--white);
+    opacity: 0.8;
+    line-height: 2;
+    text-align: justify;
+}
+
+/* aside */
+#section-search{
+    border: 1px solid #ffffff14;
+}
+#section-search input{
+    background: transparent;
+    border: none; 
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: bold;
+}
+#section-search input:focus{
+    box-shadow: none;
+}
+#section-search input::placeholder{
+    color: var(--link);
+}
+#section-search button{
+    padding: 0.8rem 2rem;
+}
+
+/* blog article one */
+.article-details .article-text{
+    color:var(--white);
+    opacity: 0.8;
+    line-height: 2;
+    text-align: justify;
+    font-weight: 500;
+}
+
+/* comment */
+#section-comment .comment-item {
+    border-bottom: 1px solid;
+    padding-bottom: 3rem;
+}
+#section-comment .comment-item .avatar{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: 1rem;
+}
+#section-comment .comment-list .date{
+    color: var(--primary-color);
+}
+#section-comment .comment-list .text{
+    color:var(--white);
+    opacity: 0.6;
+}
+
+#section-comment .comment-list .children{
+    margin-right: 4rem;
+}
+
+
+@media screen and (max-width:1200px) {
+
+ 
+}
+
+@media screen and (max-width:992px) {
+    .fs-3 {
+        font-size: calc(1.2rem + .6vw) !important;
+    }
+    .fs-6 {
+        font-size: 0.9rem !important;
+    }
+    #section-search input {
+        font-size: 0.8rem;
+    }
+    #section-search button {
+        padding: 0.8rem 1.7rem;
+        font-size: 0.9rem !important;
+        font-weight: 500 !important;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    #section-search input {
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (max-width:576px) {
+
+
+}

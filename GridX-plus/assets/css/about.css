@@ -1,0 +1,88 @@
+/* sectin top */
+.body-section .box-img{
+    /* background: #babac6; */
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(90deg, #3C58E3 -15%, #C2EBFF 58%, #5AB5E2 97%);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    overflow: hidden;
+}
+
+/* section bottom */
+#section-soical-media .social .icon-box a{
+    border: 1px solid #ffffff0f;
+    padding: 25px;
+    line-height: 1;
+    z-index: 10;
+    transition:0.4s ease ;
+    -webkit-transition:0.4s ease ;
+    -moz-transition:0.4s ease ;
+    -ms-transition:0.4s ease ;
+    -o-transition:0.4s ease ;
+}
+#section-soical-media .social .icon-box a:hover{
+    background-color: var(--white);
+    color: var(--body) !important;
+}
+
+#section-work-together .top-img{
+    filter: brightness(0.6);
+    height: 88px;
+    right: 40px;
+}
+.work-together h5 span{
+   color:var(--primary-color) 
+}
+
+@media screen and (max-width:1200px) {
+    .body-section .box-img{
+        height: 320px;
+    }
+    #section-soical-media .social .icon-box a{
+        padding: 17px;
+        font-size: 1.3rem !important;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .title-page{
+        font-size: 3rem;
+        margin: 2rem auto 3rem auto;
+    }
+    .body-section .box-img{
+        height: 350px;
+    }
+    .title-page{
+        height: max-content !important;
+    }
+    #section-about-me{
+        height: max-content !important;
+    }
+
+    #section-soical-media .social .icon-box a{
+        padding: 25px;
+        font-size: calc(1.3rem + .6vw)!important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .title-page{
+        font-size: 2rem;
+        margin: 2rem auto 3rem auto;
+    }
+    .title-page .marking{
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+
+
+}
+
